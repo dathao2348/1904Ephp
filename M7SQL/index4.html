@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        ORDER BY( sắp xếp)
+
+        ASC ( tăng dần)
+
+        DESC( giảm dần)
+
+        Cú pháp:
+        SELECT cột 1, cột 2,...
+        FROM tên bảng
+        ORDER BY cột 1, cột 2 ASC|DESC;
+
+        Ví dụ 1:
+        Lấy ra tất cả các khách hàng trong bảng customers theo thứ tự id tăng dần
+        SELECT *
+        FROM customers
+        ORDER BY id ASC
+
+        Ví dụ 2: Lấy ra tất cả các khách hàng trong bảng customers theo thứ tự id giảm dần
+        SELECT *
+        FROM customers
+        ORDER BY id DESC
+
+        Ví dụ 3: Lấy ra các khách hàng sắp xếp theo thứ tự tên tăng dần từ A-Z
+        SELECT *
+        FROM customers
+        ORDER BY first_name ASC
+
+
+
+
+
+
+        </pre>
+</body>
+</html>
